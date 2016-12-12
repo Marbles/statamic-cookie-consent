@@ -1,0 +1,7 @@
+{
+    "name": "marbles/CookieConsent",
+    "description": "Make your website comply with the crazy EU cookie law",
+    "license": "MIT",
+    "require": {
+    }
+}
