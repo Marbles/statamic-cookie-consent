@@ -5,6 +5,8 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/marbles/statamic-cookie-consent.svg?style=flat-square)](https://scrutinizer-ci.com/g/marbles/statamic-cookie-consent)
 [![StyleCI](https://styleci.io/repos/76270843/shield?branch=master)](https://styleci.io/repos/76270843)
 
+![Screenshot](http://i.imgur.com/t9QYZwP.png)
+
 ## Installation
 
 Download or clone the repository, rename the folder to `CookieConsent` then copy the folder to your site's `Addons` directory, then refresh the add-ons to install the dependencies.
