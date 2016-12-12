@@ -1,9 +1,9 @@
 # Make your website comply with the crazy EU cookie law
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/32bfd56f-d4b3-4ec4-b988-a19da523c276.svg?style=flat-square)](https://insight.sensiolabs.com/projects/32bfd56f-d4b3-4ec4-b988-a19da523c276)
-[![Quality Score](https://img.shields.io/scrutinizer/g/marbles/statamic-addon-starter.svg?style=flat-square)](https://scrutinizer-ci.com/g/marbles/statamic-addon-starter)
-[![StyleCI](https://styleci.io/repos/76184586/shield?branch=master)](https://styleci.io/repos/76184586)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/8597a693-6ee5-4db7-93af-fee15e325709.svg?style=flat-square)](https://insight.sensiolabs.com/projects/8597a693-6ee5-4db7-93af-fee15e325709)
+[![Quality Score](https://img.shields.io/scrutinizer/g/marbles/statamic-cookie-consent.svg?style=flat-square)](https://scrutinizer-ci.com/g/marbles/statamic-cookie-consent)
+[![StyleCI](https://styleci.io/repos/76270843/shield?branch=master)](https://styleci.io/repos/76270843)
 
 ## Installation
 
