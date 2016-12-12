@@ -15,6 +15,23 @@ php please addons:refresh
 
 ## Usage
 
+To use the Cookie Consent addon, you need to add 3 tags to your theme layout:  
+
+Insert this tag before your own stylesheet, if you rather combine css, you can copy the css file from the CDN and combine it with your own stylesheet.
+```html
+    {{ cookie_consent:css }}
+```
+
+Insert this tag before your own scripts, if you rather combine js, you can copy the js file from the CDN and combine it with your own JavaScript files.
+```html
+    {{ cookie_consent:js }}
+```
+
+Insert this tag before your own scripts, this initializes the Cookie Consent plug-in with the values you chose.
+```html
+    {{ cookie_consent }}
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.

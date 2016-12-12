@@ -1,0 +1,52 @@
+fields:
+  section_text:
+    type: section
+  message:
+    type: textarea
+    validate: required
+    rows: 2
+  button_text:
+    type: text
+    validate: required
+  section_link:
+    type: section
+  show_link:
+    type: toggle
+  link_text:
+    type: text
+    width: 50
+  link_url:
+    type: text
+    width: 50
+    validate: url
+  section_colors:
+    type: section
+  color_bg:
+    type: text
+    validate: required
+  color_button_bg:
+    type: text
+    validate: required
+    width: 33
+  color_button_text:
+    type: text
+    validate: required
+    width: 33
+  color_button_border:
+    type: text
+    validate: required
+    width: 33
+  position:
+    type: radio
+    options:
+      bottom: Banner Bottom
+      top: Banner top
+      top-static: Banner top (pushdown)
+      bottom-left: Floating left
+      bottom-right: Floating right
+  theme:
+    type: radio
+    options:
+      block: Block
+      classic: Classic
+      edgeless: Edgeless
