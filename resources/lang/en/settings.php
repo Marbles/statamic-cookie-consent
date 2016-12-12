@@ -2,7 +2,7 @@
 
 return [
     "section_text" => "Text options",
-    "section_text_instruct" => "Edit the text that is shown on the Cookie Consent",
+    "section_text_instruct" => "Edit the text that is shown on the Cookie Consent.",
         "message" => "Message",
         "message_instruct" => "The message to be displayed in the cookie notice.",
         "button_text" => "Button text",
@@ -15,7 +15,7 @@ return [
         "link_url" => "Policy link url",
 
     "section_colors" => "Change the colors",
-    "section_colors_instruct" => "Change the colors of the background and the button",
+    "section_colors_instruct" => "Change the colors of the background and the button.",
         "color_bg" => "Background color",
         "color_button_bg" => "Button background color",
         "color_button_text" => "Button text color",

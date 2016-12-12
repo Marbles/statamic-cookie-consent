@@ -28,7 +28,7 @@ class CookieConsentTags extends Tags
                 "message" => $this->getConfig('message', 'This website uses cookies to ensure you get the best experience on our website.'),
                 "dismiss" => $this->getConfig('button_text', 'Got it!'),
                 "link" => $this->getConfig('link_text', 'Learn more'),
-                "href" => $this->getConfig('link_text', 'http://cookiesandyou.com/')
+                "href" => $this->getConfig('link_url', 'http://cookiesandyou.com/')
             ],
             "showLink" => $this->getConfigBool('show_link', false)
         ];

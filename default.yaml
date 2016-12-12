@@ -1,0 +1,11 @@
+message: This website uses cookies to ensure you get the best experience on our website.
+button_text: Got it!
+show_link: true
+link_text: Learn more
+link_url: http://cookiesandyou.com/
+color_bg: '#252e39'
+color_button_bg: 'transparent'
+color_button_text: '#14a7d0'
+color_button_border: '#14a7d0'
+position: bottom
+theme: block
