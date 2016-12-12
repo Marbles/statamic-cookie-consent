@@ -14,43 +14,42 @@ class CookieConsentTags extends Tags
     public function index()
     {
         $options = [
-            "palette" => [
-                "popup" => [
-                    "background" => $this->getConfig('color_bg', '#fff')
+            'palette' => [
+                'popup' => [
+                    'background' => $this->getConfig('color_bg', '#fff'),
                 ],
-                "button" => [
-                    "background" => $this->getConfig('color_button_bg', '#000'),
-                    "text" => $this->getConfig('color_button_text', '#fff'),
-                    "border" => $this->getConfig('color_button_border', '#000'),
-                ]
+                'button' => [
+                    'background' => $this->getConfig('color_button_bg', '#000'),
+                    'text'       => $this->getConfig('color_button_text', '#fff'),
+                    'border'     => $this->getConfig('color_button_border', '#000'),
+                ],
             ],
-            "content" => [
-                "message" => $this->getConfig('message', 'This website uses cookies to ensure you get the best experience on our website.'),
-                "dismiss" => $this->getConfig('button_text', 'Got it!'),
-                "link" => $this->getConfig('link_text', 'Learn more'),
-                "href" => $this->getConfig('link_url', 'http://cookiesandyou.com/')
+            'content' => [
+                'message' => $this->getConfig('message', 'This website uses cookies to ensure you get the best experience on our website.'),
+                'dismiss' => $this->getConfig('button_text', 'Got it!'),
+                'link'    => $this->getConfig('link_text', 'Learn more'),
+                'href'    => $this->getConfig('link_url', 'http://cookiesandyou.com/'),
             ],
-            "showLink" => $this->getConfigBool('show_link', false)
+            'showLink' => $this->getConfigBool('show_link', false),
         ];
 
         if ($this->getConfig('position', 'banner-bottom') != 'banner-bottom') {
             if ($this->getConfig('position') == 'banner-top') {
-                $options["position"] = "top";
-                $options["static"] = $this->getConfig('position');
-
+                $options['position'] = 'top';
+                $options['static'] = $this->getConfig('position');
             } else {
-                $options["position"] = $this->getConfig('position');
+                $options['position'] = $this->getConfig('position');
             }
         }
 
         if ($this->getConfig('theme', 'block') != 'block') {
-            $options["theme"] = $this->getConfig('theme');
+            $options['theme'] = $this->getConfig('theme');
         }
 
         return '
             <script>
             window.addEventListener("load", function(){
-                window.cookieconsent.initialise(JSON.parse("' . addslashes(json_encode($options)) . '"))
+                window.cookieconsent.initialise(JSON.parse("'.addslashes(json_encode($options)).'"))
             });
             </script>
         ';
